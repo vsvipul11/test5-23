@@ -202,9 +202,9 @@ button#galleryButton {
 }
 
 #switchCameraButton {
-    display: none;
-    width: 80px;
-    height: 80px;
+    
+    width: 30px;
+    height: 30px;
     background-image: url('./img/flip.png');
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.5);
@@ -272,7 +272,7 @@ button#galleryButton {
     }
     #switchCameraButton {
         left: calc(80% - 40px);
-        top: calc(50% - 40px);
+        top: calc(50% - 30px);
     }
     #toggleFullScreenButton {
         left: calc(80% - 40px);
