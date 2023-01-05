@@ -326,7 +326,7 @@ async function f() {
         var imgPathb = ('./img/r4.png')
     }
     imgObjb.crossOrigin = "anonymous"
-    imgObjb.src = ('./img/r2.png')
+    imgObjb.src = ('./img/r4.png')
 
     images = [imgObjf, imgObjb]
     for (var i = 0; i < images.length; i++) {
