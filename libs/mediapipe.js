@@ -312,7 +312,7 @@ hands.setOptions(options);
 
 // pre-load images.. to avoid loading.. delay..
 async function f() {
-    var imgPathf = `${img_url}${img_sku}/front.png`;
+    var imgPathf =  ('./img/r4b.png');
 
     var imgObjf = new Image()
     imgObjf.crossOrigin = "anonymous"
@@ -323,7 +323,7 @@ async function f() {
     if (front_face_url) {
         var imgPathb = `${static_img_url}${front_face_url}`;
     } else {
-        var imgPathb = ('./img/r2.png')
+        var imgPathb = ('./img/r4.png')
     }
     imgObjb.crossOrigin = "anonymous"
     imgObjb.src = ('./img/r2.png')
